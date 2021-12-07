@@ -1,0 +1,501 @@
+product ID,Product Name,Manufacturer,Price,Current Inventory
+0,Aileron0,"O'Keefe, Waters and Hagenes","$5,528.12 ",266
+1,Antenna1,Boehm-Greenholt,"$7,313.58 ",158
+2,Cockpit2,"Rau, McLaughlin and Hammes","$5,473.49 ",174
+3,Elevator3,Hagenes-Mraz,"$1,218.64 ",217
+4,Empennage4,Emard and Sons,"$9,720.52 ",294
+5,Engine5,Altenwerth-Gleichner,"$2,746.99 ",152
+6,Flap6,Lemke-Crist,"$5,838.87 ",175
+7,Fuselage7,Fadel-Rath,"$3,492.07 ",295
+8,Horizontal Stabilizer8,Schuppe Inc,"$9,725.47 ",211
+9,Rudder9,Gutkowski-Fay,"$4,883.70 ",152
+10,Slat10,"Stokes, West and Mraz","$1,331.79 ",287
+11,Spoiler11,West-Collins,"$6,211.37 ",249
+12,Struts12,Beatty-Bergstrom,"$3,458.95 ",234
+13,Vertical Stabilizer13,Bechtelar-Kohler,"$8,264.13 ",158
+14,Windshield14,Ortiz Group,"$2,649.08 ",292
+15,Wing15,"Schultz, Brakus and Quitzon","$5,867.09 ",205
+16,Winglet16,Jast Inc,"$7,454.69 ",199
+17,Front Tire17,Medhurst LLC,"$3,229.80 ",194
+18,Propeller18,"Weber, Schamberger and Hayes","$3,577.36 ",220
+19,Flight Control19,"Bauch, Armstrong and Cormier","$5,615.53 ",280
+20,Pilot Seat20,"Jenkins, Gutmann and Hermann","$1,645.40 ",277
+21,First Class Seat21,Russel Inc,"$8,669.45 ",159
+22,Commerical Seat22,Deckow-Runolfsdottir,"$9,842.65 ",242
+23,Rudder Pedals23,Walter and Sons,"$5,900.48 ",298
+24,Instrument Panel24,"Marvin, Stracke and Bechtelar","$1,904.31 ",193
+25,Ovehead Panel25,Dooley Inc,"$6,567.35 ",299
+26,Side Controls26,Goldner-Douglas,"$4,571.82 ",236
+27,Engine27,Nolan Group,"$6,811.47 ",207
+28,Propeller Baldes28,Greenholt LLC,"$5,836.58 ",214
+29,Propeller Hub29,Gerhold-Emard,"$3,301.88 ",216
+30,Landing Gear30,Schoen and Sons,"$4,725.17 ",211
+31,Back Tire31,"Hahn, Moore and Willms","$2,569.53 ",191
+32,Shock Strut32,Mertz Group,"$4,425.36 ",176
+33,Wrench33,Smitham-Ward,"$8,528.66 ",163
+34,Screws34,Jenkins-Nolan,"$7,442.45 ",226
+35,Screwdriver35,Kreiger-Kassulke,"$9,414.96 ",266
+36,Fan Blade36,"Schinner, Pouros and Boyer","$7,576.29 ",209
+37,Spinner37,Botsford and Sons,"$2,678.53 ",258
+38,Low-Pressure Compressor38,"Schaden, Schoen and Wintheiser","$8,437.81 ",280
+39,High-Pressure Compressor39,Rolfson-Schultz,"$6,513.88 ",269
+40,Low-Pressure Turbine40,Heathcote Inc,"$2,066.62 ",223
+41,High-Pressure Turbine41,Homenick-Will,"$2,441.60 ",166
+42,Inlet42,"Mann, Lueilwitz and Kunze","$6,816.96 ",227
+43,Dual-Spool Compressor43,Cruickshank and Sons,"$6,059.60 ",235
+44,Burner44,"Bosco, Barrows and Dach","$6,201.85 ",200
+45,Rectangular Wing45,MacGyver and Sons,"$2,763.29 ",222
+46,Elliptical Wing46,"Considine, Kautzer and Borer","$4,476.67 ",209
+47,Tapered Wing47,"Jacobi, Gottlieb and Smith","$6,583.98 ",197
+48,Sweptback Wing48,Senger-Strosin,"$4,690.03 ",276
+49,Delta Wing49,Wiza and Sons,"$6,180.88 ",154
+50,Antiservo Tab50,Emard-Gerlach,"$4,163.87 ",297
+51,Stabilator Pivot Point51,"Douglas, Wehner and Bednar","$9,428.99 ",155
+52,Trim Tabs52,"Hammes, Quitzon and Sipes","$7,693.45 ",187
+53,Speed Brakes53,"Jacobs, Nikolaus and Huels","$3,851.56 ",163
+54,Power Plant54,Ullrich LLC,"$1,445.88 ",227
+55,Cowling55,O'Keefe Group,"$3,031.56 ",176
+56,Cycling Stick56,"Brekke, Predovic and Schiller","$4,470.52 ",182
+57,Collective Stick57,"Sporer, Hessel and Botsford","$5,527.37 ",225
+58,Rotor Blade58,Beahan Group,"$6,039.36 ",263
+59,Main Rotor Assembly59,Mayer-Brekke,"$6,735.83 ",239
+60,Transmission60,"Kemmer, Moen and Cole","$5,704.51 ",187
+61,Antenna61,"Dare, Stehr and Douglas","$4,499.84 ",215
+62,Cockpit62,"Moore, Feil and Ryan","$8,320.87 ",152
+63,Elevator63,Durgan LLC,"$1,491.47 ",262
+64,Antiservo Tab64,"Walsh, Dibbert and Kuhlman","$9,841.42 ",254
+65,Stabilator Pivot Point65,Ferry-Stoltenberg,"$5,213.75 ",226
+66,Trim Tabs66,"Homenick, Hintz and O'Conner","$5,858.97 ",293
+67,Speed Brakes67,"Bartoletti, Moore and Kiehn","$4,058.34 ",283
+68,Power Plant68,Legros-Crist,"$6,367.72 ",157
+69,Cowling69,Bahringer-Brekke,"$6,669.12 ",262
+70,Cycling Stick70,Deckow LLC,"$2,859.26 ",177
+71,Collective Stick71,Christiansen Group,"$4,334.19 ",252
+72,Screwdriver72,Schneider Inc,"$4,862.72 ",239
+73,Fan Blade73,"Wilkinson, Schaden and Maggio","$3,502.92 ",187
+74,Spinner74,Harber-Ernser,"$3,284.43 ",189
+75,Low-Pressure Compressor75,"Ziemann, Langosh and Frami","$5,481.23 ",186
+76,High-Pressure Compressor76,Howell Group,"$1,380.23 ",259
+77,Low-Pressure Turbine77,Olson-Beer,"$5,583.76 ",246
+78,High-Pressure Turbine78,"Christiansen, Reichert and Schaden","$1,110.39 ",154
+79,Inlet79,"Howell, Little and Reynolds","$6,418.67 ",201
+80,Dual-Spool Compressor80,Durgan-Stokes,"$2,783.09 ",254
+81,Burner81,"Hintz, Bailey and Bode","$9,975.49 ",188
+82,Pilot Seat82,Walter-Renner,"$8,465.09 ",246
+83,First Class Seat83,"Kutch, VonRueden and Barton","$2,869.87 ",266
+84,Commerical Seat84,Lubowitz-McLaughlin,"$8,028.01 ",160
+85,Rudder Pedals85,Baumbach-Prohaska,"$2,426.86 ",154
+86,Instrument Panel86,Pfannerstill-Ankunding,"$2,497.49 ",163
+87,Ovehead Panel87,"Prohaska, Bernier and Huel","$6,027.18 ",267
+88,Side Controls88,Harber LLC,"$4,894.35 ",217
+89,Engine89,"Collier, Lakin and Beahan","$1,787.60 ",225
+90,Propeller Baldes90,"Howe, Runte and Walsh","$7,201.76 ",164
+91,Propeller Hub91,"Collier, Smith and Lehner","$4,369.23 ",253
+92,Landing Gear92,Connelly-DuBuque,"$7,298.14 ",203
+93,Empennage93,"Keeling, Walsh and Fritsch","$4,499.76 ",223
+94,Engine94,Fadel and Sons,"$1,888.74 ",162
+95,Flap95,Keebler-Miller,"$9,689.37 ",188
+96,Fuselage96,Swaniawski-Pfannerstill,"$9,538.21 ",178
+97,Horizontal Stabilizer97,"Ferry, Kirlin and Watsica","$5,164.65 ",155
+98,Rudder98,Bergstrom Inc,"$1,969.56 ",276
+99,Slat99,Grant-Cronin,"$2,835.21 ",281
+100,Spoiler100,Wunsch-Leannon,"$6,053.06 ",176
+101,Struts101,"Hills, Yundt and King","$4,003.67 ",154
+102,Vertical Stabilizer102,"Homenick, Weimann and Will","$9,725.29 ",198
+103,Windshield103,"Pfeffer, Dach and Walsh","$4,821.01 ",243
+104,Wing104,Bernhard Group,"$7,983.07 ",198
+105,Winglet105,"Schaden, McCullough and Herzog","$2,742.24 ",240
+106,Front Tire106,Buckridge-Feest,"$4,441.30 ",167
+107,Propeller107,Klocko and Sons,"$4,476.06 ",170
+108,Flight Control108,Homenick-Rutherford,"$1,173.76 ",257
+109,Pilot Seat109,"Erdman, Grady and Runte","$4,793.80 ",188
+110,First Class Seat110,"Carroll, Kiehn and Douglas","$9,324.27 ",282
+111,Commerical Seat111,"Berge, Weissnat and Schamberger","$4,989.96 ",222
+112,Rudder Pedals112,Keebler-DuBuque,"$8,248.78 ",216
+113,Instrument Panel113,Murazik Group,"$9,798.99 ",218
+114,Ovehead Panel114,O'Hara-Bergstrom,"$5,133.30 ",289
+115,Side Controls115,"Wisoky, Lynch and Weimann","$3,029.42 ",269
+116,Engine116,"Rice, Gulgowski and Ebert","$2,476.04 ",171
+117,Shock Strut117,"Lubowitz, Reynolds and Sporer","$8,463.45 ",200
+118,Wrench118,Rippin-Bednar,"$7,393.19 ",184
+119,Screws119,"Mohr, Pfeffer and DuBuque","$4,195.34 ",177
+120,Screwdriver120,Renner LLC,"$1,772.67 ",299
+121,Fan Blade121,"Hand, Hayes and Boehm","$1,931.25 ",178
+122,Spinner122,"Rutherford, Macejkovic and Hane","$5,074.84 ",238
+123,Low-Pressure Compressor123,Douglas LLC,"$1,793.11 ",226
+124,High-Pressure Compressor124,"Luettgen, Lehner and Kautzer","$5,257.87 ",276
+125,Low-Pressure Turbine125,Beahan-Mraz,"$9,010.56 ",245
+126,High-Pressure Turbine126,Leuschke and Sons,"$5,489.68 ",214
+127,Inlet127,Herman-Torp,"$5,166.21 ",193
+128,Dual-Spool Compressor128,"Wyman, Keebler and Littel","$4,112.77 ",293
+129,Burner129,"Haley, Denesik and Doyle","$1,911.69 ",199
+130,Rectangular Wing130,Ferry-Bernier,"$4,980.36 ",246
+131,Commerical Seat131,Witting-Crona,"$6,603.82 ",263
+132,Rudder Pedals132,Cruickshank LLC,"$6,577.64 ",219
+133,Instrument Panel133,"O'Reilly, O'Reilly and Hermann","$9,423.63 ",251
+134,Ovehead Panel134,Schroeder-Howe,"$9,678.54 ",284
+135,Side Controls135,Denesik LLC,"$1,411.97 ",159
+136,Engine136,Marquardt-Ledner,"$1,672.88 ",277
+137,Propeller Baldes137,"King, Gutkowski and Johnston","$4,530.32 ",165
+138,Propeller Hub138,Bergnaum-Graham,"$9,456.61 ",280
+139,Landing Gear139,Stehr Group,"$1,609.46 ",167
+140,Empennage140,Abshire-Wiza,"$7,651.20 ",257
+141,Engine141,"Leffler, Dach and Spinka","$2,107.50 ",176
+142,Flap142,Predovic Group,"$1,705.34 ",268
+143,Fuselage143,Schmitt LLC,"$9,110.71 ",163
+144,Horizontal Stabilizer144,Berge-Hamill,"$9,026.14 ",163
+145,Rudder145,Hills Group,"$6,616.75 ",273
+146,Slat146,"Schaden, Donnelly and Johnston","$3,463.05 ",257
+147,Spoiler147,Fisher-Bailey,"$7,766.65 ",280
+148,Struts148,Turcotte Inc,"$3,450.05 ",297
+149,Vertical Stabilizer149,"Purdy, Hudson and Ondricka","$8,100.64 ",237
+150,Windshield150,Fadel LLC,"$2,589.79 ",219
+151,Wing151,Ledner Group,"$2,506.33 ",265
+152,Winglet152,"Heaney, Jerde and Emmerich","$2,923.63 ",252
+153,Fan Blade153,"Doyle, Dickinson and Krajcik","$5,066.36 ",216
+154,Spinner154,Feeney and Sons,"$8,390.30 ",244
+155,Low-Pressure Compressor155,"Grady, Ziemann and McKenzie","$1,310.35 ",299
+156,Aileron156,"Halvorson, Hilpert and Jones","$6,810.92 ",218
+157,Antenna157,Russel-Schroeder,"$3,598.41 ",241
+158,Cockpit158,"Marks, Hermiston and Heathcote","$6,449.47 ",176
+159,Elevator159,"Lemke, Grant and Boyle","$2,213.21 ",171
+160,Empennage160,"Daniel, Wilderman and Anderson","$5,674.09 ",242
+161,Engine161,Turner-Bechtelar,"$8,421.82 ",251
+162,Flap162,"Mueller, Pfannerstill and O'Reilly","$1,722.71 ",264
+163,Fuselage163,Green Inc,"$5,447.28 ",164
+164,Horizontal Stabilizer164,Schneider-Zieme,"$4,064.20 ",265
+165,Rudder165,Vandervort and Sons,"$1,642.72 ",239
+166,Slat166,Cole-Renner,"$4,078.36 ",194
+167,Spoiler167,Daugherty and Sons,"$9,872.75 ",192
+168,Struts168,"Runte, Paucek and Wehner","$1,175.56 ",173
+169,Vertical Stabilizer169,Haag Inc,"$5,425.37 ",272
+170,Windshield170,Fritsch-Denesik,"$3,753.73 ",260
+171,Wing171,McKenzie-Hayes,"$6,417.58 ",240
+172,Winglet172,"Dicki, Crona and Muller","$9,428.01 ",260
+173,Front Tire173,Buckridge-Langosh,"$5,463.44 ",199
+174,Propeller174,Lindgren-Trantow,"$8,307.83 ",197
+175,Dual-Spool Compressor175,Gerlach-Kirlin,"$8,639.08 ",252
+176,Burner176,"Bernhard, Thiel and Hamill","$6,739.92 ",289
+177,Rectangular Wing177,Kunze Group,"$2,789.55 ",180
+178,Elliptical Wing178,Kris-Jenkins,"$2,319.70 ",155
+179,Tapered Wing179,Brekke Inc,"$8,021.05 ",200
+180,Sweptback Wing180,"Okuneva, Ondricka and Hayes","$2,380.91 ",238
+181,Delta Wing181,Kovacek Group,"$3,556.11 ",218
+182,Antiservo Tab182,Ratke-Graham,"$7,330.01 ",158
+183,Stabilator Pivot Point183,"Witting, Gutkowski and Torp","$4,421.06 ",166
+184,Trim Tabs184,Kautzer-McCullough,"$4,870.59 ",238
+185,Speed Brakes185,"Dibbert, Rice and Anderson","$5,482.65 ",173
+186,Power Plant186,Mueller Group,"$1,555.41 ",263
+187,Cowling187,Stanton Inc,"$9,297.96 ",272
+188,Cycling Stick188,"Abbott, Kozey and Bayer","$7,561.94 ",252
+189,Collective Stick189,Legros-Kshlerin,"$4,782.10 ",267
+190,Rotor Blade190,Fadel-Padberg,"$8,253.03 ",202
+191,Main Rotor Assembly191,Walter-Koelpin,"$6,333.98 ",278
+192,Transmission192,Wehner-Kilback,"$3,560.81 ",213
+193,Antenna193,Carter-Parker,"$7,434.27 ",198
+194,Cockpit194,"Medhurst, Koch and Anderson","$1,847.36 ",250
+195,Elevator195,"Kilback, Franecki and Blick","$8,344.52 ",214
+196,Antiservo Tab196,Schuster-Ward,"$6,803.89 ",278
+197,Stabilator Pivot Point197,"Haag, Walker and Murphy","$6,841.87 ",198
+198,Trim Tabs198,Larson Inc,"$7,845.70 ",161
+199,Speed Brakes199,Lowe-Boyer,"$8,609.06 ",184
+200,Power Plant200,Bogisich Inc,"$7,987.89 ",202
+201,Cowling201,Davis and Sons,"$3,542.16 ",281
+202,Cycling Stick202,"Schamberger, Doyle and Toy","$3,865.68 ",284
+203,Collective Stick203,Jones-Hickle,"$9,745.59 ",236
+204,Screwdriver204,Weissnat and Sons,"$6,061.88 ",181
+205,Fan Blade205,Schamberger LLC,"$3,860.21 ",286
+206,Spinner206,Bosco Group,"$9,947.43 ",157
+207,Low-Pressure Compressor207,Sauer Group,"$1,089.34 ",154
+208,Antenna208,Okuneva LLC,"$3,169.16 ",269
+209,Cockpit209,McKenzie and Sons,"$4,081.30 ",274
+210,Elevator210,Jast Inc,"$3,902.68 ",187
+211,Empennage211,Brakus-Rippin,"$7,075.89 ",279
+212,Engine212,McDermott LLC,"$6,002.42 ",182
+213,Flap213,"O'Reilly, Connelly and Flatley","$2,625.16 ",223
+214,Fuselage214,Corkery-Stracke,"$4,600.33 ",281
+215,Horizontal Stabilizer215,Murray LLC,"$5,158.26 ",256
+216,Rudder216,Armstrong-Will,"$7,999.71 ",167
+217,Slat217,"Jacobson, Brekke and Hauck","$7,787.48 ",265
+218,Spoiler218,Zulauf-Mohr,"$7,525.22 ",247
+219,Struts219,Hamill-Swaniawski,"$7,207.23 ",217
+220,Vertical Stabilizer220,"Fay, O'Reilly and Ernser","$4,741.99 ",236
+221,Windshield221,"Schuster, Lockman and Toy","$2,273.67 ",205
+222,Wing222,Becker and Sons,"$8,767.21 ",279
+223,Winglet223,Wisoky-Dickinson,"$5,435.05 ",216
+224,Front Tire224,Hickle-Lebsack,"$9,997.61 ",240
+225,Propeller225,Tremblay-Pouros,"$1,963.06 ",283
+226,Flight Control226,"Farrell, Auer and McClure","$3,329.81 ",294
+227,Pilot Seat227,Reichel and Sons,"$2,464.68 ",182
+228,First Class Seat228,Runte LLC,"$7,145.08 ",246
+229,Commerical Seat229,Gibson Group,"$8,138.79 ",231
+230,Rudder Pedals230,"Zulauf, Beer and Doyle","$9,508.43 ",271
+231,Instrument Panel231,"Konopelski, Johnson and Conn","$1,144.77 ",224
+232,Ovehead Panel232,Langosh-Keeling,"$8,921.54 ",160
+233,Side Controls233,Hermann-Pouros,"$1,673.62 ",154
+234,Engine234,Hammes-Kulas,"$5,724.19 ",300
+235,Propeller Baldes235,"Lemke, Sanford and Bechtelar","$2,072.33 ",231
+236,Propeller Hub236,"Herzog, Sanford and Jast","$3,949.68 ",189
+237,Landing Gear237,"Schaden, Hessel and Kling","$1,333.93 ",214
+238,Back Tire238,Daugherty-Hodkiewicz,"$8,157.93 ",157
+239,Shock Strut239,Turner-Klocko,"$7,948.29 ",233
+240,Wrench240,Turner Inc,"$2,111.56 ",259
+241,Screws241,McKenzie-Harris,"$2,504.04 ",198
+242,Screwdriver242,"Greenfelder, Walker and Wunsch","$9,649.98 ",219
+243,Fan Blade243,Kilback Inc,"$5,181.66 ",189
+244,Spinner244,Hagenes-Schaden,"$6,971.59 ",157
+245,Low-Pressure Compressor245,"Skiles, Walsh and Blick","$7,913.39 ",197
+246,High-Pressure Compressor246,Klein-Leuschke,"$8,392.42 ",219
+247,Low-Pressure Turbine247,Oberbrunner-Gerlach,"$4,767.60 ",285
+248,High-Pressure Turbine248,"Emard, Jacobs and Langworth","$4,918.24 ",203
+249,Inlet249,Haag-Ondricka,"$1,229.90 ",286
+250,Dual-Spool Compressor250,"Bahringer, Keeling and Medhurst","$5,333.83 ",243
+251,Burner251,Keebler-Kessler,"$8,663.19 ",270
+252,Rectangular Wing252,Jakubowski-Haag,"$2,862.87 ",263
+253,Elliptical Wing253,Gerlach-Zulauf,"$8,229.53 ",286
+254,Tapered Wing254,"Dicki, Wyman and Wintheiser","$1,248.65 ",201
+255,Sweptback Wing255,Pacocha-Barton,"$9,577.40 ",201
+256,Delta Wing256,"Wunsch, McKenzie and Kulas","$8,284.03 ",277
+257,Antiservo Tab257,Gutkowski-Bergstrom,"$4,203.76 ",219
+258,Stabilator Pivot Point258,Emard-Yost,"$6,025.12 ",233
+259,Trim Tabs259,Doyle and Sons,"$2,068.43 ",262
+260,Speed Brakes260,Labadie-Bode,"$9,931.59 ",154
+261,Power Plant261,Klocko and Sons,"$7,757.85 ",237
+262,Cowling262,"Ward, Connelly and Funk","$3,875.91 ",206
+263,Cycling Stick263,Turcotte and Sons,"$4,561.99 ",273
+264,Collective Stick264,Larson Group,"$3,572.20 ",259
+265,Rotor Blade265,Greenfelder Inc,"$9,791.85 ",207
+266,Main Rotor Assembly266,Predovic and Sons,"$5,446.83 ",249
+267,Transmission267,"Herman, Herman and Anderson","$5,858.87 ",206
+268,Antenna268,Blick LLC,"$7,681.27 ",287
+269,Cockpit269,Gleason and Sons,"$5,492.01 ",263
+270,Elevator270,Rosenbaum Inc,"$6,534.35 ",240
+271,Antiservo Tab271,McDermott-Douglas,"$4,656.22 ",288
+272,Stabilator Pivot Point272,Wilderman-Moore,"$5,986.29 ",215
+273,Trim Tabs273,Funk and Sons,"$4,395.76 ",300
+274,Speed Brakes274,Douglas-Von,"$2,884.77 ",196
+275,Power Plant275,Pouros-Zemlak,"$4,550.09 ",178
+276,Cowling276,Connelly-Crona,"$3,026.85 ",158
+277,Cycling Stick277,"Kling, Effertz and Lehner","$1,644.11 ",162
+278,Collective Stick278,"Senger, Blanda and Douglas","$5,938.11 ",293
+279,Screwdriver279,Sipes-Harber,"$4,684.18 ",190
+280,Fan Blade280,Ebert and Sons,"$4,042.09 ",173
+281,Spinner281,Huels-Mueller,"$9,568.56 ",190
+282,Low-Pressure Compressor282,"Weimann, Blick and Denesik","$2,204.51 ",267
+283,High-Pressure Compressor283,Carroll and Sons,"$8,134.71 ",152
+284,Low-Pressure Turbine284,"Murphy, Schneider and Windler","$7,447.34 ",231
+285,High-Pressure Turbine285,"Mohr, Hane and Crooks","$1,730.49 ",267
+286,Inlet286,"O'Reilly, Satterfield and White","$5,251.37 ",210
+287,Dual-Spool Compressor287,Effertz Inc,"$8,426.54 ",219
+288,Burner288,"Pfannerstill, Prosacco and Hamill","$9,097.63 ",176
+289,Pilot Seat289,"Bogisich, Wisozk and McClure","$1,876.52 ",203
+290,First Class Seat290,Steuber LLC,"$6,521.27 ",231
+291,Commerical Seat291,Stark-McClure,"$5,064.91 ",174
+292,Rudder Pedals292,D'Amore-Hoeger,"$1,979.63 ",235
+293,Instrument Panel293,Haley LLC,"$1,838.42 ",210
+294,Ovehead Panel294,Feil and Sons,"$4,221.25 ",250
+295,Side Controls295,Gulgowski-Runolfsson,"$7,385.47 ",280
+296,Engine296,"Corwin, Dickinson and Frami","$3,491.52 ",189
+297,Propeller Baldes297,Hills-Ernser,"$7,244.45 ",245
+298,Propeller Hub298,Dibbert LLC,"$7,008.63 ",224
+299,Landing Gear299,Bergnaum Group,"$8,516.69 ",293
+300,Empennage300,"Skiles, Tromp and Kirlin","$6,455.95 ",177
+301,Engine301,Bahringer LLC,"$6,231.43 ",262
+302,Flap302,Harris and Sons,"$9,374.48 ",192
+303,Fuselage303,Schumm LLC,"$7,367.56 ",216
+304,Horizontal Stabilizer304,Corwin Inc,"$5,130.81 ",170
+305,Rudder305,Rippin and Sons,"$4,825.16 ",176
+306,Slat306,Corkery-Sipes,"$7,390.44 ",233
+307,Spoiler307,Hodkiewicz and Sons,"$6,114.72 ",193
+308,Struts308,"Raynor, Bahringer and McKenzie","$8,821.77 ",153
+309,Vertical Stabilizer309,Mohr-Murazik,"$7,086.28 ",179
+310,Windshield310,Dickinson Inc,"$4,400.14 ",196
+311,Wing311,Haley-Dibbert,"$9,810.40 ",195
+312,Winglet312,Muller-Cole,"$7,896.34 ",244
+313,Front Tire313,Mraz-Russel,"$3,446.47 ",244
+314,Propeller314,Glover-Thiel,"$5,642.48 ",264
+315,Flight Control315,"Klein, Ondricka and Turner","$6,937.11 ",195
+316,Pilot Seat316,Watsica LLC,"$1,535.85 ",268
+317,First Class Seat317,Senger and Sons,"$5,615.60 ",203
+318,Commerical Seat318,Becker and Sons,"$6,898.52 ",263
+319,Rudder Pedals319,"Morissette, Pacocha and Herman","$5,539.95 ",247
+320,Instrument Panel320,"Murray, Bosco and Gulgowski","$2,419.52 ",281
+321,Ovehead Panel321,"Jast, Mueller and Bartell","$9,516.91 ",283
+322,Side Controls322,Feeney Inc,"$8,781.24 ",283
+323,Engine323,Sipes Inc,"$6,207.25 ",183
+324,Shock Strut324,Rice-Rodriguez,"$5,386.27 ",261
+325,Wrench325,Mosciski-Kling,"$6,748.46 ",190
+326,Screws326,Will-Brown,"$7,625.69 ",150
+327,Screwdriver327,Schinner Group,"$4,402.42 ",225
+328,Fan Blade328,"Mayer, Parker and Champlin","$4,151.50 ",257
+329,Spinner329,"Trantow, Mitchell and Satterfield","$4,215.19 ",241
+330,Low-Pressure Compressor330,"Kub, Kohler and Gusikowski","$1,493.11 ",233
+331,High-Pressure Compressor331,"Collins, Wolff and Ritchie","$9,401.57 ",155
+332,Low-Pressure Turbine332,Cole-Nolan,"$9,944.04 ",225
+333,High-Pressure Turbine333,Mills LLC,"$4,880.46 ",199
+334,Inlet334,Lindgren LLC,"$1,511.38 ",224
+335,Dual-Spool Compressor335,Hoppe LLC,"$2,530.21 ",282
+336,Burner336,"Schmidt, Swaniawski and Flatley","$6,010.42 ",247
+337,Rectangular Wing337,McGlynn Inc,"$7,190.95 ",278
+338,Commerical Seat338,"Reilly, Harvey and Kemmer","$3,146.16 ",207
+339,Rudder Pedals339,Bogan-Hegmann,"$8,175.74 ",295
+340,Instrument Panel340,"Schultz, Gutkowski and Bergstrom","$6,021.29 ",222
+341,Ovehead Panel341,Cummerata-Collins,"$8,950.45 ",278
+342,Side Controls342,Kris LLC,"$4,340.43 ",162
+343,Engine343,Kutch-Adams,"$1,857.02 ",239
+344,Propeller Baldes344,"Hamill, Fahey and Nikolaus","$6,881.49 ",289
+345,Propeller Hub345,"Bartell, Kuhn and Jones","$3,295.47 ",230
+346,Landing Gear346,"Murphy, Collier and Halvorson","$8,556.24 ",275
+347,Empennage347,Leffler and Sons,"$8,275.57 ",229
+348,Engine348,"Runolfsdottir, Hansen and Gusikowski","$5,296.58 ",229
+349,Flap349,Bergnaum-Auer,"$6,884.85 ",277
+350,Fuselage350,"Heidenreich, Koepp and Bartoletti","$6,668.37 ",193
+351,Horizontal Stabilizer351,"Little, Schumm and Bauch","$7,102.18 ",208
+352,Rudder352,"Muller, Rippin and Beer","$9,117.76 ",206
+353,Slat353,Wiegand Group,"$9,388.39 ",248
+354,Spoiler354,"Ruecker, Ferry and O'Kon","$4,917.87 ",235
+355,Struts355,Champlin-Runte,"$8,510.75 ",282
+356,Vertical Stabilizer356,Witting-Connelly,"$5,641.21 ",220
+357,Windshield357,Baumbach-Hackett,"$9,076.25 ",244
+358,Wing358,O'Hara and Sons,"$2,595.70 ",284
+359,Winglet359,Walter-Block,"$4,584.78 ",158
+360,Fan Blade360,Hoeger Inc,"$8,306.54 ",231
+361,Spinner361,Goodwin-Corkery,"$5,523.28 ",296
+362,Low-Pressure Compressor362,Dibbert-Morar,"$9,082.24 ",211
+363,Aileron363,Kulas LLC,"$1,773.96 ",183
+364,Antenna364,Parisian-Kshlerin,"$8,848.09 ",285
+365,Cockpit365,"Witting, Daugherty and Russel","$4,618.70 ",216
+366,Elevator366,"O'Keefe, Kirlin and Grimes","$2,279.82 ",259
+367,Empennage367,"Cartwright, Graham and Bradtke","$3,426.51 ",281
+368,Engine368,Zboncak-Schumm,"$8,301.45 ",204
+369,Flap369,Oberbrunner LLC,"$9,612.45 ",193
+370,Fuselage370,"Reynolds, Padberg and Lockman","$6,867.38 ",208
+371,Horizontal Stabilizer371,Cole LLC,"$9,206.78 ",284
+372,Rudder372,Pollich and Sons,"$3,378.73 ",288
+373,Slat373,Abbott-Reichert,"$3,472.39 ",276
+374,Spoiler374,Hane Group,"$2,275.29 ",220
+375,Struts375,Braun-Bergnaum,"$3,461.55 ",256
+376,Vertical Stabilizer376,"McCullough, Barton and Ferry","$7,505.17 ",177
+377,Windshield377,"Skiles, Hudson and Terry","$8,215.93 ",295
+378,Wing378,O'Keefe Inc,"$4,826.36 ",283
+379,Winglet379,Conroy-Larson,"$1,209.94 ",241
+380,Front Tire380,O'Hara Inc,"$2,210.46 ",185
+381,Propeller381,Runte-Braun,"$6,710.92 ",196
+382,Dual-Spool Compressor382,Tremblay Inc,"$7,189.30 ",182
+383,Burner383,"Wolf, McCullough and Bernhard","$9,634.48 ",282
+384,Rectangular Wing384,D'Amore-Harvey,"$9,320.11 ",218
+385,Elliptical Wing385,"Murray, Reynolds and Lynch","$6,006.69 ",189
+386,Tapered Wing386,Bartoletti Group,"$3,487.01 ",172
+387,Sweptback Wing387,Wilderman-Heller,"$6,114.29 ",296
+388,Delta Wing388,Hagenes LLC,"$4,414.43 ",150
+389,Antiservo Tab389,"Gutmann, Schmidt and Kemmer","$3,783.78 ",299
+390,Stabilator Pivot Point390,Little and Sons,"$1,809.10 ",229
+391,Trim Tabs391,"Ward, Moen and Kuphal","$2,640.81 ",224
+392,Speed Brakes392,"Klocko, Hermann and Langosh","$7,781.58 ",159
+393,Power Plant393,Berge LLC,"$3,653.16 ",254
+394,Cowling394,"Parisian, Crona and Braun","$4,581.58 ",232
+395,Cycling Stick395,"Crona, Abshire and Beier","$2,106.58 ",195
+396,Collective Stick396,"Jacobson, Mitchell and Windler","$6,918.01 ",255
+397,Rotor Blade397,Hintz and Sons,"$6,751.57 ",271
+398,Main Rotor Assembly398,Ebert-Kub,"$5,875.53 ",168
+399,Transmission399,Feil-Douglas,"$8,014.63 ",230
+400,Antenna400,"Rutherford, Kassulke and Jacobson","$5,891.04 ",204
+401,Cockpit401,Senger Group,"$5,885.08 ",225
+402,Elevator402,"Swift, Durgan and Reilly","$2,988.42 ",235
+403,Antiservo Tab403,Stoltenberg Inc,"$6,469.88 ",209
+404,Stabilator Pivot Point404,Breitenberg-Welch,"$1,951.47 ",163
+405,Trim Tabs405,Tromp-Altenwerth,"$4,388.71 ",179
+406,Speed Brakes406,Lakin-Cremin,"$6,187.98 ",227
+407,Power Plant407,Hudson-Graham,"$4,158.12 ",216
+408,Cowling408,O'Conner Group,"$2,287.97 ",152
+409,Cycling Stick409,"Hand, Satterfield and Borer","$9,440.68 ",220
+410,Collective Stick410,Heidenreich-Tromp,"$5,777.33 ",159
+411,Screwdriver411,Sporer-Gislason,"$2,026.89 ",193
+412,Fan Blade412,"Leannon, Lockman and Schaefer","$5,496.29 ",185
+413,Spinner413,"Walker, Ritchie and Cummerata","$4,796.27 ",156
+414,Low-Pressure Compressor414,Blick Inc,"$5,894.21 ",216
+415,High-Pressure Turbine415,"Dickens, Goyette and Hills","$9,341.70 ",168
+416,Inlet416,Kovacek Inc,"$5,441.34 ",221
+417,Dual-Spool Compressor417,Kilback Group,"$2,451.64 ",155
+418,Burner418,"Marks, Carter and Hudson","$2,041.11 ",183
+419,Rectangular Wing419,"Hansen, Emard and White","$5,767.30 ",205
+420,Commerical Seat420,Ratke-Purdy,"$9,922.48 ",159
+421,Rudder Pedals421,Breitenberg-Grady,"$8,928.30 ",261
+422,Instrument Panel422,Daniel Group,"$8,956.94 ",231
+423,Ovehead Panel423,Koch-White,"$4,597.75 ",236
+424,Side Controls424,Beahan Group,"$1,172.05 ",299
+425,Engine425,"Parisian, Metz and Franecki","$9,254.37 ",240
+426,Propeller Baldes426,"Batz, Reichel and Gibson","$9,462.54 ",282
+427,Propeller Hub427,Mitchell LLC,"$3,487.98 ",221
+428,Landing Gear428,Abbott-Rau,"$3,950.93 ",299
+429,Empennage429,Orn-Kihn,"$9,230.80 ",243
+430,Engine430,Hamill-Cremin,"$4,141.79 ",267
+431,Flap431,Tremblay-O'Reilly,"$7,893.80 ",223
+432,Fuselage432,Ward and Sons,"$4,156.41 ",199
+433,Horizontal Stabilizer433,Kuhlman-Lind,"$9,099.88 ",236
+434,Rotor Blade434,Ankunding-Walsh,"$6,619.18 ",154
+435,Main Rotor Assembly435,Ebert LLC,"$7,709.50 ",173
+436,Transmission436,Tromp Inc,"$7,127.37 ",223
+437,Antenna437,Trantow Group,"$9,158.65 ",278
+438,Cockpit438,Beier Inc,"$9,269.39 ",293
+439,Elevator439,Moen-Keebler,"$8,740.14 ",163
+440,Antiservo Tab440,Thiel Group,"$2,368.72 ",178
+441,Stabilator Pivot Point441,Boyle-Wolff,"$8,753.55 ",186
+442,Trim Tabs442,Berge LLC,"$2,857.07 ",170
+443,Speed Brakes443,McClure-Senger,"$3,242.36 ",241
+444,Power Plant444,Beatty LLC,"$6,233.94 ",256
+445,Cowling445,"Greenfelder, Torphy and Stamm","$9,841.39 ",193
+446,Cycling Stick446,"Hane, Farrell and Morar","$5,605.43 ",269
+447,Collective Stick447,Howe LLC,"$8,488.43 ",234
+448,Screwdriver448,"Nader, Borer and O'Conner","$2,729.84 ",242
+449,Fan Blade449,Schulist-Boyle,"$4,748.46 ",217
+450,Spinner450,"Tillman, Abshire and Stamm","$2,983.89 ",217
+451,Rotor Blade451,Emard-Lueilwitz,"$3,880.13 ",275
+452,Main Rotor Assembly452,Metz-Luettgen,"$8,881.02 ",240
+453,Transmission453,"McKenzie, Luettgen and Block","$2,664.31 ",160
+454,Antenna454,"Skiles, Schmidt and Parisian","$7,762.12 ",218
+455,Cockpit455,Lakin Group,"$1,553.72 ",221
+456,Elevator456,"Bernhard, McClure and Marquardt","$7,099.42 ",274
+457,Antiservo Tab457,"Gutmann, Metz and Krajcik","$4,262.58 ",248
+458,Stabilator Pivot Point458,"Greenfelder, Farrell and Medhurst","$1,571.48 ",253
+459,Trim Tabs459,"Rau, Collins and Hettinger","$9,788.87 ",231
+460,Speed Brakes460,Hackett and Sons,"$7,256.50 ",207
+461,Power Plant461,"Hilpert, Barrows and Collier","$9,729.67 ",156
+462,Cowling462,"Durgan, Satterfield and Blick","$7,326.32 ",188
+463,Cycling Stick463,Klein-Kutch,"$3,516.37 ",210
+464,Collective Stick464,"Wilderman, Kertzmann and Huel","$7,136.39 ",243
+465,Screwdriver465,"Koch, Boyle and Dare","$1,755.32 ",210
+466,Fan Blade466,"Dach, Lang and O'Reilly","$6,833.13 ",284
+467,Spinner467,"Jenkins, Langworth and Koss","$6,128.58 ",187
+468,Low-Pressure Compressor468,Parker LLC,"$6,813.19 ",291
+469,Antenna469,Dach LLC,"$6,402.06 ",245
+470,Cockpit470,Spencer-Kuphal,"$2,651.82 ",203
+471,Elevator471,"Grimes, Wintheiser and Erdman","$2,990.32 ",166
+472,Empennage472,"Maggio, Grady and Cremin","$1,478.07 ",274
+473,Engine473,Abshire-Langosh,"$7,640.67 ",206
+474,Flap474,Emard-McClure,"$6,552.05 ",220
+475,Fuselage475,"Reynolds, Murazik and Johnson","$8,361.42 ",154
+476,Horizontal Stabilizer476,"Will, Walsh and Stoltenberg","$6,249.63 ",194
+477,Rudder477,Predovic-Walker,"$7,421.79 ",189
+478,Slat478,"Marvin, Rempel and Bode","$6,712.55 ",263
+479,Spoiler479,"Kling, Kerluke and Sawayn","$9,674.12 ",211
+480,Struts480,Powlowski and Sons,"$7,527.04 ",172
+481,Vertical Stabilizer481,Spencer-Stroman,"$3,905.33 ",262
+482,Windshield482,McDermott and Sons,"$7,752.64 ",229
+483,Wing483,Borer and Sons,"$1,143.87 ",293
+484,Pilot Seat484,Wilderman Group,"$1,624.53 ",242
+485,First Class Seat485,"Schamberger, Buckridge and Wintheiser","$5,250.91 ",160
+486,Commerical Seat486,"Cole, Runte and Zemlak","$4,922.95 ",293
+487,Rudder Pedals487,"Rath, Kunde and Turner","$4,647.21 ",286
+488,Instrument Panel488,"Spencer, Spinka and Padberg","$2,481.44 ",275
+489,Ovehead Panel489,Strosin Inc,"$2,960.89 ",260
+490,Side Controls490,Labadie Group,"$6,595.16 ",260
+491,Engine491,"Grady, Hermiston and Rippin","$5,323.30 ",192
+492,Propeller Baldes492,Murphy-Lakin,"$1,614.44 ",206
+493,Propeller Hub493,Ratke and Sons,"$1,326.34 ",208
+494,Landing Gear494,Lowe-Koepp,"$9,924.07 ",280
+495,Empennage495,Muller-Bashirian,"$4,737.73 ",189
+496,Engine496,Wisoky-Heidenreich,"$7,045.61 ",214
+497,Flap497,"Beatty, Schmeler and Leannon","$6,916.49 ",282
+498,Fuselage498,"Wehner, McCullough and Veum","$8,337.32 ",187
+499,Horizontal Stabilizer499,"Lehner, Kiehn and O'Connell","$7,222.48 ",154
