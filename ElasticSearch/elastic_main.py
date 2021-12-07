@@ -35,6 +35,8 @@ def selection():
             deleteData()
         elif(num == "4"):
             listColumns()
+        elif(num == "5"):
+            queryData()
 
 
 def listColumns():
@@ -82,8 +84,29 @@ def deleteData():
     print("Index is now deleted")
 
 
+def queryData():
+    criteria = []
+    for x in range(len(columns)):
+        print(x, ".)", columns[x])
+
+    column_choice = int(input("Select which you would like to Search for"))
+    name_choice = input("What is the name of the you are looking for?")
+
+    query_body = {
+        "match": {
+            columns[column_choice]: str(name_choice)
+        }
+    }
+    query_data = es.search(index="mock3", query=query_body)
+
+    for x in range():
+        result = query_data["hits"]["hits"][x]["_source"][columns[column_choice]]
+        print(result)
+
+
 # print(es.info())
 
 # es.indices.delete(index='406mbe', ignore=[400, 404])
+
 
 main()
