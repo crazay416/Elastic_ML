@@ -40,9 +40,11 @@ def selection():
 def listColumns():
     for x in range(len(columns)):
         print(x, ".)", columns[x])
+
     choice = input("Select which you would like to see")
     int_choice = int(choice)
     print(columns[int_choice])
+
     res = es.search(index="mock3", filter_path=[
                     "hits.hits._source"], size=10000)
     counter = (len(res["hits"]["hits"]))
