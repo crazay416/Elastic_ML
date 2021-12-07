@@ -15,6 +15,15 @@ es = Elasticsearch(
 
 
 def main():
+    options()
+    selection()
+
+
+def options():
+    print("1.)Insert Data \n2.)Search Data \n3.)Delete Data \n4.)List categories")
+
+
+def selection():
     num = ""
     while(num != "0"):
         num = input("Please enter a number: ")
