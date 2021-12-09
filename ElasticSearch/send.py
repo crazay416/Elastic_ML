@@ -16,22 +16,17 @@ es = Elasticsearch(
     http_auth=(config['ELASTIC']['user'], config['ELASTIC']['password'])
 )
 
+    
  
 def send():
-    count = 0 #Delete 
-    with open("C:\\Users\\Admin\\Downloads\\product_sales_transpose.csv", "r") as f:
-        reader = csv.reader(f)
-        for row in reader:
-            jsonString = json.dumps(row)
-            channel.basic_publish(exchange='',
-                                    routing_key='HF',
-                                    body=jsonString)
+    x = '{  "message": "sellProduct", "productID": 0, "quantity": 10,"buyer": "JetBlue"} '
 
-            print("sent: " + jsonString)
-            
-            
-            count += 1 #Delete this after debug
-            if count ==2: break # Delete this after debug
+
+    channel.basic_publish(exchange='',
+                          routing_key='HF',
+                          body=x)
+
+    print("sent: " + x)
     connection.close()
 
 send()

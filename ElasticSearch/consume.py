@@ -21,8 +21,7 @@ es = Elasticsearch(
 )
     
 def callback(ch, method, properties, body):
-  print(" [x] Received " + str(body))
-  #helpers.bulk(es, {"_index":"ml_mock_data", "sales":body})
+    print(" [x] Received " + str(body))
 
 channel.basic_consume('HF',
                       callback,
