@@ -1,21 +1,37 @@
 import pika, os, json
-url = os.environ.get('CLOUDAMQP_URL', 'amqps://wfsdzxpt:UdYJ3pVxVAEEtnP6RYBzs1fnvbTaocKb@gull.rmq.cloudamqp.com/wfsdzxpt') # <- PUT SERVER LINK HERE
+import csv
+from elasticsearch import Elasticsearch, helpers
+import configparser
+
+url = os.environ.get('CLOUDAMQP_URL', 'amqps://webstepy:inie8RuNuFYfFxFdnSvXfIjDkBCmtEd7@gull.rmq.cloudamqp.com/webstepy')
 params = pika.URLParameters(url)
 connection = pika.BlockingConnection(params)
 channel = connection.channel()
 
+config = configparser.ConfigParser()
+config.read('example.ini')
+
+es = Elasticsearch(
+    cloud_id=config['ELASTIC']['cloud_id'],
+    http_auth=(config['ELASTIC']['user'], config['ELASTIC']['password'])
+)
+
+ 
 def send():
+    count = 0 #Delete 
+    with open("C:\\Users\\Admin\\Downloads\\product_sales_transpose.csv", "r") as f:
+        reader = csv.reader(f)
+        for row in reader:
+            jsonString = json.dumps(row)
+            channel.basic_publish(exchange='',
+                                    routing_key='HF',
+                                    body=jsonString)
 
-    # x = '{ "message": "getInventoryRecommendations" }'
-    x = '{  "message": "sellProduct", "productID": 0, "quantity": 10,"buyer": "JetRed"} '
-    # x = '{ "message": "addProduct","productID": 0,"quantity": 10}'
-
-
-    channel.basic_publish(exchange='',
-                          routing_key='HF_ML',
-                          body=x)
-
-    print("sent: " + x)
+            print("sent: " + jsonString)
+            
+            
+            count += 1 #Delete this after debug
+            if count ==2: break # Delete this after debug
     connection.close()
 
 send()
