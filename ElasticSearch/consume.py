@@ -110,11 +110,8 @@ def MLcallback(json_file):
     res = es.search(index="ml-product-info", filter_path=[
                         "hits.hits._source"], size=10000)
 
-    counter = len(json_file['body']) #no Of hits
-    print("Counter", counter)
-        # print(counter)
 
-    for x in range(counter):
+    for x in list(json_file['body']):
         find_id = {
                         "match": {
                             "product ID": x
@@ -132,8 +129,7 @@ def MLcallback(json_file):
                 }
 
         es.update(index="ml-product-info", id=index_id, body=data_update)
-
-
+        print("Update forcasted sale Product ID ", x , ": ", json_file["body"][str(x)])
 
 channel.basic_consume('HF',
                       callback,
