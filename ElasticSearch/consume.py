@@ -52,7 +52,7 @@ def callback(ch, method, properties, body):
             "Current Inventory": json_file["quantity"],
             "product ID": json_file["productID"],
             "Product Name": "Product_Test_Name",
-            "Manufacturer": json_file["buyer"]
+            "Manufacturer": "none"  # json_file["buyer"]
         }
 
         es.index(index="ml-product-info", body=doc)

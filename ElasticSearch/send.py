@@ -21,8 +21,8 @@ es = Elasticsearch(
 
 
 def send():
-    #x = '{"message": "addProduct", "productID": 500, "quantity": 10, "buyer": "Boeing"}'
-    x = '{"message": "ML", "body": {"0": 999, "1": 999, "8": 300}}'
+    x = '{"message": "addProduct", "productID": 507, "quantity": 15}'
+    #x = '{"message": "ML", "body": {"0": 999, "1": 999, "8": 300}}'
 
     channel.basic_publish(exchange='',
                           routing_key='HF',
