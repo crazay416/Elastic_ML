@@ -27,9 +27,9 @@ def callback(ch, method, properties, body):
     # productID is json file
     # product ID is ElasticSearch csv
 
-    new_body = str(body).replace("b'", "").replace("} '", "}")
+    new_body = str(body).replace("b'", "").replace("}'", "}")
     json_file = json.loads(new_body)
-    # print(json_file["productID"])
+    print(json_file["productID"])
 
     res = es.search(index="ml-product-info", filter_path=[
                     "hits.hits._source"], size=10000)
