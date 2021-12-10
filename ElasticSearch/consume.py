@@ -33,7 +33,7 @@ def callback(ch, method, properties, body):
     if json_file["message"] == "ML":
         MLcallback(json_file)
         return
-    # print(json_file["productID"])
+    print(json_file)
 
     check_exists = {
         "match": {
@@ -99,18 +99,23 @@ def callback(ch, method, properties, body):
                     if(updateInventory < 0):
                         print("You are trying to buy ",
                               json_file["quantity"], " products but we only have ", data["Current Inventory"])
+                        data_update = {
+                            "doc": {
+                                "Current Inventory": updateInventory,
+                                "Manufacturer": json_file["buyer"]
+                            }
+                        }
+
                         return
 
                 if(json_file["message"] == "addProduct"):
                     updateInventory = data["Current Inventory"] + \
                         json_file["quantity"]
-
-                data_update = {
-                    "doc": {
-                        "Current Inventory": updateInventory,
-                        "Manufacturer": json_file["buyer"]
+                    data_update = {
+                        "doc": {
+                            "Current Inventory": updateInventory,
+                        }
                     }
-                }
 
                 es.update(index="ml-product-info",
                           id=index_id, body=data_update)
