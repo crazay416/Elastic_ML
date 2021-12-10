@@ -96,15 +96,16 @@ def callback(ch, method, properties, body):
 
                     print("Update Inventory: ", updateInventory)
 
+                    data_update = {
+                        "doc": {
+                            "Current Inventory": updateInventory,
+                            "Manufacturer": json_file["buyer"]
+                        }
+                    }
+
                     if(updateInventory < 0):
                         print("You are trying to buy ",
                               json_file["quantity"], " products but we only have ", data["Current Inventory"])
-                        data_update = {
-                            "doc": {
-                                "Current Inventory": updateInventory,
-                                "Manufacturer": json_file["buyer"]
-                            }
-                        }
 
                         return
 
