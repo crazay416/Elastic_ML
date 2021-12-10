@@ -22,11 +22,11 @@ es = Elasticsearch(
     http_auth=(config['ELASTIC']['user'], config['ELASTIC']['password'])
 )
 
-# productID is json file
-# product ID is ElasticSearch csv
-
 
 def callback(ch, method, properties, body):
+    # productID is json file
+    # product ID is ElasticSearch csv
+
     new_body = str(body).replace("b'", "").replace("} '", "}")
     json_file = json.loads(new_body)
     # print(json_file["productID"])
@@ -39,23 +39,37 @@ def callback(ch, method, properties, body):
     for x in range(counter):
         result = res["hits"]["hits"][x]["_source"]["product ID"]
         data = res["hits"]["hits"][x]["_source"]
+
         if result == json_file["productID"]:
             print(data)
 
-    # print(res)
+            find_id = {
+                "match": {
+                    "product ID": json_file["productID"]
+                }
+            }
 
-    # find_data = {
-    #     "id": json_file["productID"]
-    # }
+            query_data = es.search(
+                index="ml-product-info", query=find_id, size=1)
 
-    data_update = {
-        "doc": {
-            "Sold": "TRUE",
-        }
-    }
+            index_id = query_data["hits"]["hits"][0]["_id"]
 
-    # es.update(index="mock_data",
-    #           id=json_fi, body=data_update)
+            if(json_file["message"] == "sellProduct"):
+                updateInventory = data["Current Inventory"] - \
+                    json_file["quantity"]
+
+            if(json_file["message"] == "addProduct"):
+                updateInventory = data["Current Inventory"] + \
+                    json_file["quantity"]
+
+            data_update = {
+                "doc": {
+                    "Current Inventory": updateInventory,
+                }
+            }
+
+            es.update(index="ml-product-info",
+                      id=index_id, body=data_update)
 
 
 channel.basic_consume('HF',
