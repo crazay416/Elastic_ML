@@ -31,46 +31,74 @@ def callback(ch, method, properties, body):
     json_file = json.loads(new_body)
     print(json_file["productID"])
 
-    res = es.search(index="ml-product-info", filter_path=[
-                    "hits.hits._source"], size=10000)
+    check_exists = {
+        "match": {
+            "product ID": json_file["productID"]
+        }
+    }
 
-    counter = (len(res["hits"]["hits"]))
-    # print(counter)
-    for x in range(counter):
-        result = res["hits"]["hits"][x]["_source"]["product ID"]
-        data = res["hits"]["hits"][x]["_source"]
+    query_exists = es.search(
+        index="ml-product-info", query=check_exists, size=1)
 
-        if result == json_file["productID"]:
-            print(data)
+    value = query_exists["hits"]["total"]["value"]
 
-            find_id = {
-                "match": {
-                    "product ID": json_file["productID"]
+    if(value == 0 and json_file["message"] == "addProduct"):
+        doc = {
+            "Price": 0,
+            "Current Inventory": json_file["quantity"],
+            "product ID": json_file["productID"],
+            "Product Name": "Product_Test_Name",
+            "Manufacturer": json_file["buyer"]
+        }
+
+        es.index(index="ml-product-info", body=doc)
+
+    # if(not query_exists["hits"]["hits"][0]):
+    #     print("Data does not exist")
+    # else:
+    #     print("Data Exists")
+
+    else:
+        res = es.search(index="ml-product-info", filter_path=[
+                        "hits.hits._source"], size=10000)
+
+        counter = (len(res["hits"]["hits"]))
+        # print(counter)
+        for x in range(counter):
+            result = res["hits"]["hits"][x]["_source"]["product ID"]
+            data = res["hits"]["hits"][x]["_source"]
+
+            if result == json_file["productID"]:
+                print(data)
+
+                find_id = {
+                    "match": {
+                        "product ID": json_file["productID"]
+                    }
                 }
-            }
 
-            query_data = es.search(
-                index="ml-product-info", query=find_id, size=1)
+                query_data = es.search(
+                    index="ml-product-info", query=find_id, size=1)
 
-            index_id = query_data["hits"]["hits"][0]["_id"]
+                index_id = query_data["hits"]["hits"][0]["_id"]
 
-            if(json_file["message"] == "sellProduct"):
-                updateInventory = data["Current Inventory"] - \
-                    json_file["quantity"]
+                if(json_file["message"] == "sellProduct"):
+                    updateInventory = data["Current Inventory"] - \
+                        json_file["quantity"]
 
-            if(json_file["message"] == "addProduct"):
-                updateInventory = data["Current Inventory"] + \
-                    json_file["quantity"]
+                if(json_file["message"] == "addProduct"):
+                    updateInventory = data["Current Inventory"] + \
+                        json_file["quantity"]
 
-            data_update = {
-                "doc": {
-                    "Current Inventory": updateInventory,
-                    "Manufacturer": json_file["buyer"]
+                data_update = {
+                    "doc": {
+                        "Current Inventory": updateInventory,
+                        "Manufacturer": json_file["buyer"]
+                    }
                 }
-            }
 
-            es.update(index="ml-product-info",
-                      id=index_id, body=data_update)
+                es.update(index="ml-product-info",
+                          id=index_id, body=data_update)
 
 
 channel.basic_consume('HF',
