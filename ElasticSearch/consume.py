@@ -7,8 +7,12 @@ from elasticsearch import Elasticsearch, helpers
 import configparser
 
 # Access the CLODUAMQP_URL environment variable and parse it (fallback to localhost)
+# url = os.environ.get(
+#     'CLOUDAMQP_URL', 'amqps://webstepy:inie8RuNuFYfFxFdnSvXfIjDkBCmtEd7@gull.rmq.cloudamqp.com/webstepy')
+
 url = os.environ.get(
-    'CLOUDAMQP_URL', 'amqps://webstepy:inie8RuNuFYfFxFdnSvXfIjDkBCmtEd7@gull.rmq.cloudamqp.com/webstepy')
+    'CLOUDAMQP_URL', 'amqps://nsyxwdkj:sG1P7UcRM4VRBlFtw7t8CTqaIVMuZLk7@gull.rmq.cloudamqp.com/nsyxwdkj')
+
 params = pika.URLParameters(url)
 connection = pika.BlockingConnection(params)
 channel = connection.channel()  # start a channel

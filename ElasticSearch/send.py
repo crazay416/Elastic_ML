@@ -22,6 +22,8 @@ es = Elasticsearch(
 
 def send():
     x = '{"message": "addProduct", "productID": 1023, "quantity": 25}'
+
+    #x = '{"message": "addProduct", "productID": 1023, "quantity": 25}'
     #x = '{"message": "ML", "body": {"0": 999, "1": 999, "8": 300}}'
 
     channel.basic_publish(exchange='',
