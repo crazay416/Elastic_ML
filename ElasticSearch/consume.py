@@ -29,7 +29,11 @@ def callback(ch, method, properties, body):
 
     new_body = str(body).replace("b'", "").replace("}'", "}")
     json_file = json.loads(new_body)
-    print(json_file["productID"])
+
+    if json_file["message"] == "ML":
+        MLcallback(json_file)
+        return
+    #print(json_file["productID"])
 
     check_exists = {
         "match": {
@@ -41,6 +45,8 @@ def callback(ch, method, properties, body):
         index="ml-product-info", query=check_exists, size=1)
 
     value = query_exists["hits"]["total"]["value"]
+
+
 
     if(value == 0 and json_file["message"] == "addProduct"):
         doc = {
@@ -58,7 +64,7 @@ def callback(ch, method, properties, body):
     # else:
     #     print("Data Exists")
 
-    else:
+    elif value != 0:
         res = es.search(index="ml-product-info", filter_path=[
                         "hits.hits._source"], size=10000)
 
@@ -99,6 +105,34 @@ def callback(ch, method, properties, body):
 
                 es.update(index="ml-product-info",
                           id=index_id, body=data_update)
+
+def MLcallback(json_file):
+    res = es.search(index="ml-product-info", filter_path=[
+                        "hits.hits._source"], size=10000)
+
+    counter = len(json_file['body']) #no Of hits
+    print("Counter", counter)
+        # print(counter)
+
+    for x in range(counter):
+        find_id = {
+                        "match": {
+                            "product ID": x
+                        }
+                    }
+
+        query_data = es.search(index="ml-product-info", query=find_id, size=1) #query data with id x
+
+        index_id = query_data["hits"]["hits"][0]["_id"] #doc ID
+
+        data_update = {
+                    "doc": {
+                        "forcastedSale": json_file["body"][str(x)]
+                    }
+                }
+
+        es.update(index="ml-product-info", id=index_id, body=data_update)
+
 
 
 channel.basic_consume('HF',
