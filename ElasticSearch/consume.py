@@ -65,6 +65,7 @@ def callback(ch, method, properties, body):
             data_update = {
                 "doc": {
                     "Current Inventory": updateInventory,
+                    "Manufacture": json_file["buyer"]
                 }
             }
 
