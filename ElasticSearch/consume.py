@@ -63,6 +63,7 @@ def callback(ch, method, properties, body):
     #     print("Data does not exist")
     # else:
     #     print("Data Exists")
+    # h
 
     elif value != 0:
         res = es.search(index="ml-product-info", filter_path=[
